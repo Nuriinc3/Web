@@ -36,7 +36,7 @@ export default function Home() {
           <div className="stat-item"><div className="stat-num">1</div><div className="stat-label">Hedef</div></div>
         </div>
       </section>
-
+adsfasfd
       <div className="section" id="hakkimda">
         <div className="sec-label">01 — Hakkımda</div>
         <h2 className="sec-title">Merhaba, ben Nuri 👋</h2>
@@ -65,9 +65,11 @@ export default function Home() {
             <div style={{marginTop:"1rem"}}>
               <div className="tl-section-label">Yolculuk</div>
               <div className="timeline">
-                <div className="tl-item"><div className="tl-year">2023</div><div className="tl-title">Üniversiteye Başladım</div><div className="tl-desc">EEE bölümüne kabul aldım</div></div>
-                <div className="tl-item"><div className="tl-year">2024</div><div className="tl-title">Web&apos;e İlgi Duymaya Başladım</div><div className="tl-desc">React ve Next.js öğrenmeye başladım</div></div>
-                <div className="tl-item"><div className="tl-year">2025</div><div className="tl-title">İlk Projeler</div><div className="tl-desc">Portfolyo sitemi yayınladım</div></div>
+                <div className="tl-item"><div className="tl-year">2021</div><div className="tl-title">Üniversiteye Başladım</div><div className="tl-desc">EEE bölümüne kabul aldım</div></div>
+                <div className="tl-item"><div className="tl-year">2022</div><div className="tl-title">Web&apos;e İlgi Duymaya Başladım</div><div className="tl-desc">React ve Next.js öğrenmeye başladım</div></div>
+                <div className="tl-item"><div className="tl-year">2022</div><div className="tl-title">İlk Projeler</div><div className="tl-desc">Portfolyo sitemi yayınladım</div></div>
+                <div className="tl-item"><div className="tl-year">2022</div><div className="tl-title">Ahmetin poposu</div><div className="tl-desc">Ahmet beni pavyona götürcek</div></div>
+              </div>
               </div>
             </div>
           </div>
