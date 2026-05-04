@@ -1,6 +1,8 @@
 export default function Home() {
   return (
     <>
+    <div className="parallax-bg"></div>
+    <div className="parallax-overlay"></div>
       <nav>
         <span className="logo">Nuri.dev</span>
         <ul className="nav-links">
