@@ -46,7 +46,7 @@ export default function Home() {
             <p>Elektrik ve Elektronik Mühendisliği okuyan, havacılığa tutkuyla bağlı bir öğrenciyim.</p>
             <p>Havacılık alanı benim için sadece bir ilgi değil — aviyonik sistemler, insansız hava araçları ve uçuş kontrol sistemleri mühendislik ile havacılığı buluşturan tutkum.</p>
             <p>Web geliştirmeye de yakın zamanda ilgi duymaya başladım. Next.js ve React öğrenerek kendi projelerimi hayata geçiriyorum.</p>
-            <div className="about-quote">Hedefim: Havacılık sektöründe elektrik/elektronik mühendisi olarak çalışmak.</div>
+            <div className="about-quote">Hedefim: Havacılık sektöründe ses getiren bir profesyonel olmak.</div>
             <div className="about-chips">
               <span className="chip">Devre Tasarımı</span>
               <span className="chip">Aviyonik</span>
@@ -65,11 +65,11 @@ export default function Home() {
             <div style={{marginTop:"1rem"}}>
               <div className="tl-section-label">Yolculuk</div>
               <div className="timeline">
-                <div className="tl-item"><div className="tl-year">2023</div><div className="tl-title">Üniversiteye Başladım</div><div className="tl-desc">EEE bölümüne kabul aldım</div></div>
-                <div className="tl-item"><div className="tl-year">2024</div><div className="tl-title">Web&apos;e İlgi Duymaya Başladım</div><div className="tl-desc">React ve Next.js öğrenmeye başladım</div></div>
-                <div className="tl-item"><div className="tl-year">2025</div><div className="tl-title">İlk Projeler</div><div className="tl-desc">Portfolyo sitemi yayınladım</div></div>
-              <div className="tl-item"><div className="tl-year">2025</div><div className="tl-title">Ahmetin Poposu</div><div className="tl-desc">Pavyona Götürcek</div></div>
-              </div>
+                <div className="tl-item"><div className="tl-year">2021</div><div className="tl-title">Üniversiteye Başladım</div><div className="tl-desc">EEE bölümüne kabul aldım</div></div>
+                <div className="tl-item"><div className="tl-year">2026</div><div className="tl-title">Web&apos;e İlgi Duymaya Başladım</div><div className="tl-desc">React ve Next.js öğrenmeye başladım</div></div>
+                <div className="tl-item"><div className="tl-year">2026</div><div className="tl-title">İlk Projeler</div><div className="tl-desc">Portfolyo sitemi yayınladım</div></div>
+              <div className="tl-item"><div className="tl-year">2026</div><div className="tl-title">Ahmetin pavyon macerası</div><div className="tl-desc">Pavyona Götürcek Barışta gelicek Çağrı belki</div></div>
+            </div>
             </div>
           </div>
         </div>
@@ -87,6 +87,9 @@ export default function Home() {
               {name:"Elektronik Tasarım",pct:55},
               {name:"Gömülü Sistemler",pct:40},
               {name:"MATLAB / Simulink",pct:35},
+              {name:"PX4",pct:35},
+              {name:"Ardo Pilot",pct:35},
+              {name:"MATRİX",pct:100},
             ].map(s=>(
               <div className="skill-row" key={s.name}>
                 <div className="skill-row-top"><span className="skill-row-name">{s.name}</span><span className="skill-row-pct">{s.pct}%</span></div>
@@ -97,6 +100,7 @@ export default function Home() {
           <div>
             <div className="skill-group-title">Yazılım &amp; Web</div>
             {[
+              {name:"C++",pct:60},
               {name:"React",pct:30},
               {name:"Next.js",pct:25},
               {name:"Python",pct:40},
