@@ -286,7 +286,7 @@ const sendEmail = (e: React.FormEvent) => {
               </select>
             </div>
             <div className="form-group"><label>MESAJ</label><textarea name="message" placeholder="Merhaba Nuri..." required></textarea></div>
-            <a href="mailto:SENIN_MAILIN@gmail.com" className="form-submit" style={{display:"block",textAlign:"center",textDecoration:"none"}}>Mesaj Gönder →</a>
+            <a href="mailto:emailjs.inc3@gmail.com" className="form-submit" style={{display:"block",textAlign:"center",textDecoration:"none"}}>Mesaj Gönder →</a>
           </form>
         </div>
       </div>
