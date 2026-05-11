@@ -1,4 +1,26 @@
-export default function Home() {
+"use client";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+export default function Home() 
+{
+  const form = useRef<HTMLFormElement>(null);
+
+const sendEmail = (e: React.FormEvent) => {
+  e.preventDefault();
+  if (!form.current) return;
+
+  emailjs.sendForm(
+    "emailjs.inc3",
+    "Template.inc3", 
+    form.current,
+    "py_P3vKsNZknI4IUM"
+  ).then(() => {
+    alert("Mesajın iletildi! En kısa sürede döneceğim ✈️");
+    form.current?.reset();
+  }).catch(() => {
+    alert("Bir hata oluştu, tekrar dene.");
+  });
+};
   return (
     <>
     <div className="parallax-bg"></div>
@@ -250,22 +272,22 @@ export default function Home() {
               <a href="#" className="social-btn"><div className="social-icon" style={{background:"rgba(199,125,255,0.1)"}}>💼</div><div><div style={{fontWeight:500,fontSize:13}}>LinkedIn</div><div style={{fontSize:11,color:"#5A6A8A"}}>linkedin.com/in/nuri</div></div></a>
             </div>
           </div>
-          <div className="form-wrap">
-            <div className="form-row">
-              <div className="form-group"><label>İSİM</label><input type="text" placeholder="Adın"/></div>
-              <div className="form-group"><label>E-POSTA</label><input type="email" placeholder="mail@..."/></div>
+           <form ref={form} onSubmit={sendEmail} className="form-wrap">
+             <div className="form-row">
+              <div className="form-group"><label>İSİM</label><input type="text" name="from_name" placeholder="Adın"/></div>
+              <div className="form-group"><label>E-POSTA</label><input type="email" name="from_email" placeholder="mail@..." required/></div>
             </div>
             <div className="form-group"><label>KONU</label>
-              <select>
+              <select name="subject">
                 <option>Genel</option>
                 <option>İş Birliği</option>
                 <option>Havacılık</option>
                 <option>Web Proje</option>
               </select>
             </div>
-            <div className="form-group"><label>MESAJ</label><textarea placeholder="Merhaba Nuri..."></textarea></div>
+            <div className="form-group"><label>MESAJ</label><textarea name="message" placeholder="Merhaba Nuri..." required></textarea></div>
             <button className="form-submit">Mesaj Gönder →</button>
-          </div>
+          </form>
         </div>
       </div>
 
