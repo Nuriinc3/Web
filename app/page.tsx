@@ -246,8 +246,8 @@ export default function Home()
           <div>
             <p className="contact-intro">Havacılık, elektronik ya da web geliştirme hakkında konuşmak ister misin? Her zaman buradayım.</p>
             <div className="social-grid">
-              <a href="#" className="social-btn"><div className="social-icon" style={{background:"rgba(255,107,107,0.1)"}}>✉️</div><div><div style={{fontWeight:500,fontSize:13}}>E-posta</div><div style={{fontSize:11,color:"#5A6A8A"}}>email@...</div></div></a>
-              <a href="#" className="social-btn"><div className="social-icon" style={{background:"rgba(107,203,119,0.1)"}}>🐙</div><div><div style={{fontWeight:500,fontSize:13}}>GitHub</div><div style={{fontSize:11,color:"#5A6A8A"}}>github.com/nuri</div></div></a>
+              <a href="#" className="social-btn"><div className="social-icon" style={{background:"rgba(255,107,107,0.1)"}}>✉️</div><div><div style={{fontWeight:500,fontSize:13}}>E-posta</div><div style={{fontSize:11,color:"#5A6A8A"}}>emailjs.inc3@gmail.com</div></div></a>
+              <a href="#" className="social-btn"><div className="social-icon" style={{background:"rgba(107,203,119,0.1)"}}>🐙</div><div><div style={{fontWeight:500,fontSize:13}}>GitHub</div><div style={{fontSize:11,color:"#5A6A8A"}}>https://github.com/Nuriinc3</div></div></a>
               <a href="#" className="social-btn"><div className="social-icon" style={{background:"rgba(77,150,255,0.1)"}}>🐦</div><div><div style={{fontWeight:500,fontSize:13}}>Twitter</div><div style={{fontSize:11,color:"#5A6A8A"}}>@nuri</div></div></a>
               <a href="#" className="social-btn"><div className="social-icon" style={{background:"rgba(199,125,255,0.1)"}}>💼</div><div><div style={{fontWeight:500,fontSize:13}}>LinkedIn</div><div style={{fontSize:11,color:"#5A6A8A"}}>linkedin.com/in/nuri</div></div></a>
             </div>
@@ -262,7 +262,7 @@ export default function Home()
                 <option>Genel</option>
                 <option>İş Birliği</option>
                 <option>Havacılık</option>
-                <option>Web Proje</option>
+                <option>Borsa</option>
               </select>
             </div>
             <div className="form-group"><label>MESAJ</label><textarea name="message" placeholder="Merhaba Nuri..." required></textarea></div>
@@ -273,7 +273,7 @@ export default function Home()
 
       <footer>
         <span className="footer-logo">Nuri.dev</span>
-        <p>© 2025 Nuri · Sevgiyle kodlandı ✈️</p>
+        <p>© 2026 inc3 ✈️</p>
         <div className="footer-links">
           <a href="#hakkimda">Hakkımda</a>
           <a href="#projeler">Projeler</a>
