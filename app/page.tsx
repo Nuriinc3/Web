@@ -72,7 +72,7 @@ export default function Home()
                 <div className="tl-item"><div className="tl-year">2021</div><div className="tl-title">Üniversiteye Başladım</div><div className="tl-desc">EEE bölümüne kabul aldım</div></div>
                 <div className="tl-item"><div className="tl-year">2026</div><div className="tl-title">Web&apos;e İlgi Duymaya Başladım</div><div className="tl-desc">React ve Next.js öğrenmeye başladım</div></div>
                 <div className="tl-item"><div className="tl-year">2026</div><div className="tl-title">İlk Projeler</div><div className="tl-desc">Portfolyo sitemi yayınladım</div></div>
-              <div className="tl-item"><div className="tl-year">2026</div><div className="tl-title">Ahmetin pavyon macerası</div><div className="tl-desc">Pavyona Götürcek Barışta gelicek Çağrı belki</div></div>
+              <div className="tl-item"><div className="tl-year">2026</div><div className="tl-title">Ahmetin pavyon macerası</div><div className="tl-desc">Pavyona Götürcek Barışta gelicek Çağrı belki Hani bende dedi SAyın FUrkan gardaşım Onuda götürmezse ben gelmem</div></div>
             </div>
             </div>
           </div>
